@@ -10,7 +10,7 @@
 # print(weight +'lbs = '+str(convertion)+'kg')
 # #cw 3 (input is always assigned as Sting in python)
 
-#################### MULTIPLE LINE UNDER ONE VARIABLE
+#################### MULTIPLE LINEs UNDER ONE VARIABLE
 # message='''
 # hi kousick
 #
@@ -100,6 +100,32 @@
 #
 # print('Thank you')
 
+############ CW3
+# rate = 1000000
+# type=input('Please enter cradit type(good/bad): ').lower()
+#
+# if 'good' in type:
+#     print(f'downpaiment is ${int(rate)*(10/100)}')
+# else:
+#     print(f'downpaiment is ${int(rate) * (20 / 100)}')
 
+####################### LOGICAL OPERATOR-AND/OR
+# highIncome=input('Is clints income high(yes/no): ').lower()
+# goodCradit=input('Does clint has good Cradit(yes/no): ').lower()
 
+# #AND-BOTH CONDITIONS HAVE TO BE TRUE.
+
+# if 'yes' in highIncome and 'yes' in goodCradit:
+#     print('You are eligible for loan.')
+# else:
+#     print('Sorry,You are not eligible for loan.')
+
+# #OR-IF ONE IS TRUE THEN WHOLE CONDITION WILL BE TRUE.
+
+# if 'yes' in highIncome or 'yes' in goodCradit:
+#     print('You are eligible for loan.')
+# else:
+#     print('Sorry,You are not eligible for loan.')
+
+########################## COMPARISON OPERATOR >/</>=/<=
 
