@@ -187,4 +187,26 @@
 # else:
 #     print('please enter a valid unit and try again.')
 
+####################### WHILE LOOP---while(untill) condition:
+# i = 1
+# while i <= 6:
+#     print('*' * i)
+#     i+= 1
+# print('done')
+
+# secNum = int(input('enter a number and give the device to your game partner to guess: '))
+# guessCount=0
+# guessLimit=int(input("Enter guess limit: "))
+# while guessCount<guessLimit:
+#     guessNum=int(input('guess a number: '))
+#     guessCount+=1
+#     if guessNum==secNum:
+#         print('you won!')
+#         break
+# else:
+#     print('sorry try again with a new game.')
+
+
+
+
 
